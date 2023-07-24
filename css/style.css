@@ -2601,6 +2601,7 @@ h5,
     margin: 1rem auto;
     transition: .3s;
 }
+
 .submit-btn:hover {
     opacity: 1;
 }
@@ -4289,4 +4290,37 @@ textarea.form-control {
 
 .contact-wrap .header {
     color: #037760;
+}
+
+#work-with h2 {
+    color: var(--bs-dark);
+}
+
+#work-with .subheading {
+    color: #037760;
+}
+
+.work-with-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.work-with-logos .image-box {
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-with-logos img {
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.work-with-logos .image-box:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.1);
 }
